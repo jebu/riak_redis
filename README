@@ -1,0 +1,12 @@
+riak_redis
+==================
+
+A Redis backend for Riak derived off [http://github.com/cstar/riak_redis_backend]
+
+Instructions
+============
+./rebar compile
+./rebar eunit
+
+to deploy
+./rebar install target=$RIAK_INSTALL_LOCATION
